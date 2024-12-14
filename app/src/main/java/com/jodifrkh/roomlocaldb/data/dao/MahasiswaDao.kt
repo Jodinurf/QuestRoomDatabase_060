@@ -10,4 +10,7 @@ interface MahasiswaDao {
     @Update
     suspend fun updateMahasiswa(mahasiswa: Mahasiswa)
 
+    @Delete
+    suspend fun deleteMahasiswa(mahasiswa: Mahasiswa)
+
 }
